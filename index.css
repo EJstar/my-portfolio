@@ -1,0 +1,53 @@
+body{
+    background-color: azure;
+    color: cornsilk;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto ;
+    position: fixed;
+    width: 100%;
+    padding: 30px 20px;
+   
+    
+    
+    
+}
+.logo{
+    color: dimgrey;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+span{
+    color: blueviolet;
+}
+.navbar{
+ display: flex;
+
+}
+.navbar a{
+    color: burlywood;
+font-size: 1rem;
+padding: 10px 20px;
+font-weight: 500;
+
+}
+.navbar a:hover{
+    color: aliceblue;
+   background: yellowgreen;
+    transition: .3s;
+}
+
+img{
+    border-radius: 50%;
+
+  }
+
+  .circle{
+    padding-left: 50%;
+    
+  }
+  .circle p{
+    color: darkgrey;
+  }
+  
