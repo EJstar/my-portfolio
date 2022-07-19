@@ -6,6 +6,7 @@ body {
   background-color: azure;
   color: cornsilk;
   font-family: sitefont;
+  
 }
 header {
   display: grid;
@@ -16,14 +17,12 @@ header {
 }
 
 .logo {
-  color: dimgrey;
+  color: blueviolet;
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-span {
-  color: blueviolet;
-}
+
 
 .navbar {
   display: flex;
@@ -32,7 +31,7 @@ span {
   list-style: none;
 }
 .navbar a {
-  color: burlywood;
+  color: blueviolet;
   font-size: 1rem;
   padding: 10px 20px;
   font-weight: 500;
@@ -47,9 +46,9 @@ img {
   border-radius: 50%;
 }
 
-.circle {
+.second-column {
   padding-left: 50%;
 }
-.circle p {
-  color: darkgrey;
+.second-column p {
+  color: blueviolet;
 }
