@@ -48,7 +48,16 @@ img {
 
 .second-column {
   padding-left: 50%;
+  padding-left: 67%;
 }
-.second-column p {
-  color: blueviolet;
+.second-column h3 {
+  color: gray;
 }
+details summary{
+color: orangered;
+}
+details span{
+  color: black;
+  background: peru;
+}
+
