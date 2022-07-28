@@ -3,9 +3,11 @@
   src: url(/endurance-portfolio-website/assets/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
 }
 body {
-  background-color: azure;
-  color: cornsilk;
-  font-family: sitefont;
+   background-color: #f1f1f1;
+  padding: 40px;
+  font-family: Arial; 
+   
+    /* font-family: sitefont; */
   
 }
 header {
@@ -55,9 +57,19 @@ img {
 }
 details summary{
 color: orangered;
+margin: 11%;
+
 }
-details span{
-  color: black;
-  background: peru;
+details{
+  background-color: white;
+  width: 121%;
+}
+details button{
+  
+margin: 18%;
+
+}
+details form{
+  margin: 11%;
 }
 
