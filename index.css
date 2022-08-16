@@ -12,10 +12,16 @@ body {
 }
 header {
   display: grid;
-  grid-template-columns: auto auto;
-  position: fixed;
+  /* grid-template-rows: auto auto auto; */
+  /* position: fixed; */
   width: 100%;
   padding: 30px 20px;
+  border: 1px solid orange;
+}
+.first-rows{
+  display: grid;
+  grid-template-columns: auto auto;
+border: 1px solid green;
 }
 
 .logo {
@@ -48,11 +54,13 @@ img {
   border-radius: 50%;
 }
 
-.second-column {
-  padding-left: 50%;
-  padding-left: 67%;
+.second-rows {
+  justify-content: center;
+  border: 2px solid red;
+  display: grid;
+  /* grid-template-rows: auto; */
 }
-.second-column h3 {
+.second-rows h3 {
   color: gray;
 }
 details summary{
@@ -62,7 +70,8 @@ margin: 11%;
 }
 details{
   background-color: white;
-  width: 121%;
+  
+ 
 }
 details button{
   
@@ -72,4 +81,12 @@ margin: 18%;
 details form{
   margin: 11%;
 }
+
+.current{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  border: 1px solid red;
+  gap: 100px;
+}
+
 

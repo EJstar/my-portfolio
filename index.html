@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="jquery-3.6.0.js"></script>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
 </head>
@@ -13,55 +14,46 @@
 <body>
     <!-- header section -->
     <header>
-        <div class="first-column">
+        <div class="first-rows">
             <a class="logo">Endurance</a>
-            
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        
-        <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
 
-        <div class="second-column">
+        <div class="second-rows">
             <img src="enddy.jpg" alt="Avatar" style="width: 200px;" height="189px">
             <h3><i>I am a programmer</i></h3>
-            
-            <details>
-                <summary>get a quote</summary>
-            <div class="form">
-                <form action="">
-                    <input type="text" placeholder="Enter your name here" required><br> <br>
-            
-                <select name="Project name" placeholder="Select Project Categories">
-                    <option value="">Select Project Categories</option>
-                  <option value="EnddysPro">EnddysPro</option>
-                  <option value="Josh.com">Josh.com</option>
-                  <option value="MyWeb.com">MyWeb.com</option>
 
-                </form>
-                </select>
-                <button class="btn" onclick="filterSelection('get quote')"> get quote</button>
-            </details>
 
-            <br>
+            <div class="current">
+                <details>
+                    <summary>get a quote</summary>
+                    <div class="form">
+                        <form action="">
+                            <input type="text" placeholder="Enter your name here" required><br> <br>
+
+                            <select name="Project name" placeholder="Select Project Categories">
+                                <option value="">Select Project Categories</option>
+                                <option value="EnddysPro">EnddysPro</option>
+                                <option value="Josh.com">Josh.com</option>
+                                <option value="MyWeb.com">MyWeb.com</option>
+                            </select>
+                            <button class="btn" onclick="filterSelection('get quote')"> get quote</button>
+                        </form>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>currently working</summary>
+                    <span>coming soon</span>
+                </details>
             </div>
-            
-         
-             <div class="current">
-                
-             </div>  
-            
         </div>
-
-       
     </header>
-
-    </div>
-   
-
 </body>
 
 </html>
