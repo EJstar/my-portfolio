@@ -3,21 +3,17 @@
   src: url(/endurance-portfolio-website/assets/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
 }
 body {
-   background-color: #f1f1f1;
+background-color: #f1f1f1;
   padding: 40px;
-  font-family: Arial; 
-   
-    /* font-family: sitefont; */
-  
+  font-family: Arial;   
 }
+
 header {
   display: grid;
-  /* grid-template-rows: auto auto auto; */
-  /* position: fixed; */
   width: 100%;
   padding: 30px 20px;
-  border: 1px solid orange;
 }
+
 .first-rows{
   display: grid;
   grid-template-columns: auto auto;
@@ -86,7 +82,7 @@ details form{
   display: grid;
   grid-template-columns: 200px 200px;
   border: 1px solid red;
-  gap: 100px;
+  gap: 50px;
 }
 
 
